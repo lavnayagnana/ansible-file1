@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks:
+    - name: create file using ansible playbook
+      file:
+        path: /home/osboxes/ansi.txt
+        state: touch
+
+
